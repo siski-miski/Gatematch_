@@ -1,0 +1,15 @@
+# Keep secrets and local env files out of image context
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local runtime/build artifacts
+uploads/
+.pytest_cache/
+.mypy_cache/

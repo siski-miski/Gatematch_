@@ -1,0 +1,15 @@
+# Keep local env files and editor artifacts out of image context
+.env
+.env.*
+.vscode/
+
+# Build artifacts
+node_modules/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
