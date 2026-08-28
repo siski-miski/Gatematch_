@@ -85,3 +85,7 @@ app.include_router(ssr.router)
 @app.get("/")
 def root():
     return {"message": "Connectov API is running"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
