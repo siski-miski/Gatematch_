@@ -98,14 +98,14 @@ export default function Navbar() {
                     {!logoLoadError ? (
                         <img
                             src={WEBSITE_LOGO_PATH}
-                            alt="Gatematch logo"
+                            alt="Connectov logo"
                             style={{ width: 32, height: 32, borderRadius: 8, objectFit: 'cover', flexShrink: 0 }}
                             onError={() => setLogoLoadError(true)}
                         />
                     ) : (
                         <div style={logoMark}>P</div>
                     )}
-                    <span className="navbar-brand-text" style={{ letterSpacing: '-0.3px' }}>Gatematch</span>
+                    <span className="navbar-brand-text" style={{ letterSpacing: '-0.3px' }}>Connectov</span>
                 </Link>
 
                 {/* ─── Desktop nav links ─── */}

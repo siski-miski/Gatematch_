@@ -88,7 +88,7 @@ def _geocode_address(address: str):
     """Geocode address using Nominatim API via standard urllib."""
     try:
         url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(address)}&format=json&limit=1"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Gatematch/1.0'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'Connectov/1.0'})
         with urllib.request.urlopen(req, timeout=5) as response:
             data = json.loads(response.read().decode())
             if data and len(data) > 0:

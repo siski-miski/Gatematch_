@@ -229,7 +229,7 @@ export default function DashboardPage() {
                     <div className="dashboard-welcome-copy">
                         {user && <UserAvatar user={user} size={54} />}
                         <div>
-                            <div className="dashboard-eyebrow">Your Gatematch workspace</div>
+                            <div className="dashboard-eyebrow">Your Connectov workspace</div>
                             <h1 className="dashboard-title">Good to see you, {firstName}</h1>
                             <p className="dashboard-subtitle">Track your capacity, deal progress, and next steps from one place.</p>
                         </div>

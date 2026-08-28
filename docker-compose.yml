@@ -27,7 +27,7 @@ services:
       SIGNUP_BLOCK_MESSAGE: ${SIGNUP_BLOCK_MESSAGE:-Cant create new account for the moment please reach us via whatsapp message}
       ADMIN_EMAIL: ${ADMIN_EMAIL:?ADMIN_EMAIL is required}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
-      ADMIN_FULLNAME: ${ADMIN_FULLNAME:-Gatematch Admin}
+      ADMIN_FULLNAME: ${ADMIN_FULLNAME:-Connectov Admin}
       SSR_INDEX_URL: ${SSR_INDEX_URL:-http://frontend/index-static.html}
     depends_on:
       postgres:

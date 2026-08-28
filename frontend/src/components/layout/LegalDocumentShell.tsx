@@ -99,7 +99,7 @@ export default function LegalDocumentShell({ slug, title, fallbackUpdatedLabel, 
 
     useEffect(() => {
         const label = resolvedTitle || title || slugToTitle(slug);
-        document.title = `${label} | Gatematch`;
+        document.title = `${label} | Connectov`;
     }, [resolvedTitle, slug, title]);
 
     const handleCancel = () => {

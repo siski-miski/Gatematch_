@@ -7,16 +7,16 @@ const complianceCards = [
     { icon: <CreditCard size={36} className="text-gold" />, title: 'KYC / KYB Verification', desc: 'Every individual and business is verified before accessing the marketplace. Identity, corporate registration, and UBO confirmed.' },
     { icon: <FileText size={36} className="text-gold" />, title: 'AML Screening', desc: 'All members are screened against global sanctions lists, PEP databases, and adverse media. Continuous monitoring on active deals.' },
     { icon: <FileText size={36} className="text-gold" />, title: 'Legal Deal Templates', desc: 'All deals use standardized legal frameworks including sub-merchant agreements, revenue sharing contracts, and chargeback liability clauses.' },
-    { icon: <Building size={36} className="text-gold" />, title: 'Escrow Protection', desc: 'Security deposits are held by Gatematch during the deal. Released on SLA compliance. Forfeited on material breach , real skin in the game.' },
+    { icon: <Building size={36} className="text-gold" />, title: 'Escrow Protection', desc: 'Security deposits are held by Connectov during the deal. Released on SLA compliance. Forfeited on material breach , real skin in the game.' },
     { icon: <Scale size={36} className="text-gold" />, title: 'Dispute Resolution', desc: 'Our compliance team mediates disputes between parties. Structured timeline. Written decision. Binding within the platform framework.' },
     { icon: <Search size={36} className="text-gold" />, title: 'Ongoing Monitoring', desc: 'Active deals are reviewed quarterly. Chargeback ratios, volume anomalies, and fraud signals trigger automatic compliance reviews.' },
 ];
 
 const faqs = [
-    { q: 'Is it legal for a provider to let others process through them?', a: 'Yes, under the right legal structure. Providers on Gatematch operate under compliant sub-merchant or reseller agreements, which are authorized by card networks and financial regulators. Our deal templates are designed to ensure compliance with applicable regulations.' },
-    { q: 'What happens if a seeker causes a chargeback issue?', a: 'Deal agreements include chargeback liability caps and rolling reserve clauses. Security deposits cover initial exposure. Gatematch mediates disputes and can terminate deals that breach SLA thresholds.' },
-    { q: 'How does Gatematch verify providers are legitimate?', a: 'We verify corporate registration, processing history, bank statements, and where applicable, licensing documentation. Providers must demonstrate real operational capacity before listing on the marketplace.' },
-    { q: 'What industries are permitted on the platform?', a: 'Gatematch maintains a published Acceptable Use Policy. Prohibited categories include unlicensed financial services, certain adult content, and activities illegal in the provider\'s jurisdiction. Edge cases are reviewed by our compliance team.' },
+    { q: 'Is it legal for a provider to let others process through them?', a: 'Yes, under the right legal structure. Providers on Connectov operate under compliant sub-merchant or reseller agreements, which are authorized by card networks and financial regulators. Our deal templates are designed to ensure compliance with applicable regulations.' },
+    { q: 'What happens if a seeker causes a chargeback issue?', a: 'Deal agreements include chargeback liability caps and rolling reserve clauses. Security deposits cover initial exposure. Connectov mediates disputes and can terminate deals that breach SLA thresholds.' },
+    { q: 'How does Connectov verify providers are legitimate?', a: 'We verify corporate registration, processing history, bank statements, and where applicable, licensing documentation. Providers must demonstrate real operational capacity before listing on the marketplace.' },
+    { q: 'What industries are permitted on the platform?', a: 'Connectov maintains a published Acceptable Use Policy. Prohibited categories include unlicensed financial services, certain adult content, and activities illegal in the provider\'s jurisdiction. Edge cases are reviewed by our compliance team.' },
 ];
 
 export default function CompliancePage() {
@@ -34,7 +34,7 @@ export default function CompliancePage() {
                     >
                         <div className="page-kicker">Trust & Compliance</div>
                         <div className="page-title">Built for a regulated market, not a loophole</div>
-                        <div className="page-copy">Every member, deal, and live processing relationship on Gatematch sits inside a compliance framework with verification, monitoring, contractual structure, and dispute controls.</div>
+                        <div className="page-copy">Every member, deal, and live processing relationship on Connectov sits inside a compliance framework with verification, monitoring, contractual structure, and dispute controls.</div>
                         <div className="page-meta-row">
                             <div className="page-meta-pill">KYC and KYB required</div>
                             <div className="page-meta-pill">Ongoing AML screening</div>

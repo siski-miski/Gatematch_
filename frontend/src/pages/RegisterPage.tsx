@@ -140,7 +140,7 @@ export default function RegisterPage() {
                                     <UserPlus size={24} className="text-navy" />
                                 </div>
                                 <h1 className="font-serif text-2xl text-white-custom mb-2">Create your account</h1>
-                                <p className="text-sm text-slate-custom">Join the Gatematch marketplace</p>
+                                <p className="text-sm text-slate-custom">Join the Connectov marketplace</p>
                             </div>
 
                             {signupConfig && signupBlocked && (

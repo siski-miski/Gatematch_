@@ -212,7 +212,7 @@ def get_index_template() -> str:
 
     if not template_html and getattr(settings, "SSR_INDEX_URL", ""):
         try:
-            req = urllib.request.Request(settings.SSR_INDEX_URL, headers={"User-Agent": "Gatematch-ssr/1.0"})
+            req = urllib.request.Request(settings.SSR_INDEX_URL, headers={"User-Agent": "Connectov-ssr/1.0"})
             with urllib.request.urlopen(req, timeout=3) as response:
                 template_html = response.read().decode("utf-8")
         except Exception:

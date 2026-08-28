@@ -5,7 +5,7 @@ from app.core.database import Base
 
 DEFAULT_FAQS = [
     {"q": "How quickly can I get a deal activated?", "a": "Most deals go live within 48–72 hours of both parties signing the term sheet, subject to KYB verification."},
-    {"q": "Is Gatematch regulated?", "a": "Gatematch operates as an infrastructure marketplace, not a payment processor. Regulatory compliance sits with the licensed providers on the platform."},
+    {"q": "Is Connectov regulated?", "a": "Connectov operates as an infrastructure marketplace, not a payment processor. Regulatory compliance sits with the licensed providers on the platform."},
     {"q": "What happens if a deal goes wrong?", "a": "Professional and Enterprise plans include escrow protection and structured dispute resolution with our compliance team."},
     {"q": "Can I list multiple gateway types?", "a": "Yes — providers can post unlimited cards on the Professional plan, covering different corridors, currencies, and processing types."},
 ]
@@ -16,7 +16,7 @@ class SiteSettings(Base):
 
     id = Column(Integer, primary_key=True, default=1)
     contact_whatsapp = Column(String, nullable=False, default="1234567890")
-    contact_email = Column(String, nullable=False, default="support@Gatematch.io")
+    contact_email = Column(String, nullable=False, default="support@Connectov.io")
     contact_hours = Column(String, nullable=False, default="Mon – Fri, 9am – 7pm CET")
     contact_offices = Column(String, nullable=False, default="Paris · London · Dubai")
     contact_sales_href = Column(String, nullable=False, default="#")

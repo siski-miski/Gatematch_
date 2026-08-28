@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     # Admin seed
     ADMIN_EMAIL: str = Field(min_length=1)
     ADMIN_PASSWORD: str = Field(min_length=1)
-    ADMIN_FULLNAME: str = "Gatematch Admin"
+    ADMIN_FULLNAME: str = "Connectov Admin"
 
     # SSR template source (used by the frontend SSR proxy)
     SSR_INDEX_URL: str = ""

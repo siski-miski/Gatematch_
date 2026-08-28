@@ -94,7 +94,7 @@ def admin_review_proposal(
     if previous_status != status:
         operation_label = card.operation_type.capitalize() if card.operation_type else 'Card'
         message = (
-            f"Your {operation_label} proposal was accepted. Gatematch will guide you through the next step."
+            f"Your {operation_label} proposal was accepted. Connectov will guide you through the next step."
             if status == "accepted"
             else f"Your {operation_label} proposal was declined. You can update it and submit again."
         )

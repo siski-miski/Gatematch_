@@ -199,8 +199,8 @@ function ContactSection() {
                 <div className="adm-section-title"><MessageCircle size={16} style={{ color: 'var(--gold)' }} /><span>Support Channels</span></div>
                 <div className="adm-fields-grid">
                     <div className="adm-field"><label><MessageCircle size={13} />WhatsApp number</label><input value={form.contact_whatsapp} onChange={(e) => set('contact_whatsapp', e.target.value)} placeholder="e.g. 33612345678" /><span className="adm-field-hint">Used for the floating "Contact us" button.</span></div>
-                    <div className="adm-field"><label><Mail size={13} />Support email</label><input type="email" value={form.contact_email} onChange={(e) => set('contact_email', e.target.value)} placeholder="support@Gatematch.io" /></div>
-                    <div className="adm-field"><label><Phone size={13} />Sales / book-a-call URL</label><input value={form.contact_sales_href} onChange={(e) => set('contact_sales_href', e.target.value)} placeholder="https://cal.com/Gatematch" /></div>
+                    <div className="adm-field"><label><Mail size={13} />Support email</label><input type="email" value={form.contact_email} onChange={(e) => set('contact_email', e.target.value)} placeholder="support@Connectov.io" /></div>
+                    <div className="adm-field"><label><Phone size={13} />Sales / book-a-call URL</label><input value={form.contact_sales_href} onChange={(e) => set('contact_sales_href', e.target.value)} placeholder="https://cal.com/Connectov" /></div>
                 </div>
             </motion.div>
             <motion.div className="adm-card" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>

@@ -4,15 +4,15 @@ import Footer from '../components/layout/Footer';
 
 const steps = [
     { n: '01', icon: Globe, title: 'Discover', desc: 'Browse live cards or post a request. Filter by corridor, method, volume, and trust score.' },
-    { n: '02', icon: Wrench, title: 'Verify', desc: 'Gatematch runs KYB/KYC checks and assigns a Trust Score to both sides before any introduction.' },
+    { n: '02', icon: Wrench, title: 'Verify', desc: 'Connectov runs KYB/KYC checks and assigns a Trust Score to both sides before any introduction.' },
     { n: '03', icon: Handshake, title: 'Structure', desc: 'Use standardized deal templates , revenue split, volume caps, chargeback liability, SLAs.' },
-    { n: '04', icon: ArrowRight, title: 'Activate', desc: 'Once terms are signed, the processing rail goes live. Gatematch monitors compliance and performance.' },
+    { n: '04', icon: ArrowRight, title: 'Activate', desc: 'Once terms are signed, the processing rail goes live. Connectov monitors compliance and performance.' },
 ];
 
 const roles = [
     { label: 'FOR PROVIDERS', icon: <Wrench size={28} style={{ color: '#4da8ff' }} />, title: 'Monetize Your Infrastructure', desc: 'List your payment gateway, merchant account, or payout rails. Set your conditions , volume caps, industry restrictions, pricing. Earn revenue from capacity you already have.' },
     { label: 'FOR SEEKERS', icon: <Globe size={28} style={{ color: '#4da8ff' }} />, title: 'Access Payment Rails', desc: 'Find infrastructure that matches your geography, industry, and volume. Request introductions, negotiate terms, activate within days , not months of bank applications.' },
-    { label: 'FOR BOTH', icon: <Handshake size={28} style={{ color: '#4da8ff' }} />, title: 'Structured, Protected Deals', desc: 'Every deal is structured with legal templates, escrow protection, and performance monitoring. Gatematch stays in the relationship as the trust and compliance layer.' },
+    { label: 'FOR BOTH', icon: <Handshake size={28} style={{ color: '#4da8ff' }} />, title: 'Structured, Protected Deals', desc: 'Every deal is structured with legal templates, escrow protection, and performance monitoring. Connectov stays in the relationship as the trust and compliance layer.' },
 ];
 
 const useCases = [
@@ -20,7 +20,7 @@ const useCases = [
     { bold: 'Gateway redundancy:', text: 'UK eCommerce brand adds a backup EU processor after its primary gateway suspended account , 72-hour activation.' },
     { bold: 'Payout rails:', text: 'Creator platform with 5,000 contractors in Southeast Asia connects to a licensed PSP offering local currency payouts.' },
     { bold: 'High-risk acquiring:', text: 'Travel agency with 8% refund rate finds a specialist acquirer with experience in the vertical and tolerance for the model.' },
-    { bold: 'PSP deal flow:', text: 'Payment service provider lists white-label capacity on Gatematch instead of hiring a BD team , acquires 12 new sub-merchants in Q1.' },
+    { bold: 'PSP deal flow:', text: 'Payment service provider lists white-label capacity on Connectov instead of hiring a BD team , acquires 12 new sub-merchants in Q1.' },
 ];
 
 export default function HowItWorksPage() {
@@ -37,8 +37,8 @@ export default function HowItWorksPage() {
                         style={{ textAlign: 'center' }}
                     >
                         <div className="hiw-kicker">Product Guide</div>
-                        <h1 className="hiw-title">How Gatematch structures payment access from intro to activation</h1>
-                        <p className="hiw-subtitle">Providers monetize licensed capacity. Seekers source the right rails faster. Gatematch stays in the middle with templates, verification, and compliance oversight.</p>
+                        <h1 className="hiw-title">How Connectov structures payment access from intro to activation</h1>
+                        <p className="hiw-subtitle">Providers monetize licensed capacity. Seekers source the right rails faster. Connectov stays in the middle with templates, verification, and compliance oversight.</p>
                     </motion.div>
                 </div>
             </section>

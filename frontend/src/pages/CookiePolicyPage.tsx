@@ -29,7 +29,7 @@ export default function CookiePolicyPage() {
                     <h2>1. What Are Cookies</h2>
                     <p>
                         Cookies are small text files stored on your device when you visit a website. They are widely used to make
-                        websites work efficiently and to provide information to website operators. Gatematch uses cookies and
+                        websites work efficiently and to provide information to website operators. Connectov uses cookies and
                         similar technologies (local storage, session storage) to operate, secure, and improve the Service.
                     </p>
 
@@ -95,7 +95,7 @@ export default function CookiePolicyPage() {
 
                     <h2>3. Third-Party Cookies</h2>
                     <p>
-                        Some third-party services integrated into Gatematch may set their own cookies. These include:
+                        Some third-party services integrated into Connectov may set their own cookies. These include:
                     </p>
                     <ul>
                         <li><strong>Stripe:</strong> Payment processing cookies for platform fee collection.</li>
@@ -127,7 +127,7 @@ export default function CookiePolicyPage() {
 
                     <h2>5. Do Not Track</h2>
                     <p>
-                        Some browsers include a "Do Not Track" (DNT) signal. Gatematch does not currently respond to DNT signals
+                        Some browsers include a "Do Not Track" (DNT) signal. Connectov does not currently respond to DNT signals
                         because no industry-standard interpretation exists. We will update this policy if a standard is adopted.
                     </p>
 
@@ -142,8 +142,8 @@ export default function CookiePolicyPage() {
                         If you have questions about our use of cookies, contact us at:
                     </p>
                     <p>
-                        <strong>Gatematch Technologies Ltd.</strong><br />
-                        Email: privacy@Gatematch.io
+                        <strong>Connectov Technologies Ltd.</strong><br />
+                        Email: privacy@Connectov.io
                     </p>
                 </LegalDocumentShell>
             </motion.section>

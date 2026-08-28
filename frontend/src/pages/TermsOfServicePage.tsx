@@ -28,7 +28,7 @@ export default function TermsOfServicePage() {
 
                     <h2>1. Acceptance of Terms</h2>
                     <p>
-                        By accessing or using the Gatematch platform, website, and related services (the "Service"), you agree to be
+                        By accessing or using the Connectov platform, website, and related services (the "Service"), you agree to be
                         bound by these Terms of Service ("Terms"). If you are using the Service on behalf of an organization, you
                         represent and warrant that you have the authority to bind that organization to these Terms.
                     </p>
@@ -36,13 +36,13 @@ export default function TermsOfServicePage() {
 
                     <h2>2. Description of Service</h2>
                     <p>
-                        Gatematch operates a marketplace that connects businesses seeking payment infrastructure access ("Seekers") with
+                        Connectov operates a marketplace that connects businesses seeking payment infrastructure access ("Seekers") with
                         verified payment service providers who have capacity ("Providers"). The platform facilitates discovery, due diligence,
                         deal structuring, and performance monitoring for payment infrastructure partnerships involving gateways and processors
                         such as Stripe, PayPal, Adyen, Payoneer, Checkout.com, Shopify Payments, Braintree, Worldpay, and others.
                     </p>
                     <p>
-                        Gatematch is a facilitator and marketplace. We are not a party to deals negotiated between Providers and Seekers,
+                        Connectov is a facilitator and marketplace. We are not a party to deals negotiated between Providers and Seekers,
                         and we do not guarantee specific outcomes.
                     </p>
 
@@ -71,13 +71,13 @@ export default function TermsOfServicePage() {
                         <li>Providers may post "Offer" cards describing available payment infrastructure capacity.</li>
                         <li>Seekers may post "Request" cards describing their payment access needs.</li>
                         <li>All listings must accurately represent available capacity, pricing, and terms.</li>
-                        <li>Deals are structured using Gatematch's standardized templates covering revenue splits, volume caps, chargeback liability, and SLAs.</li>
-                        <li>Gatematch reserves the right to remove or modify listings that violate these Terms or platform policies.</li>
+                        <li>Deals are structured using Connectov's standardized templates covering revenue splits, volume caps, chargeback liability, and SLAs.</li>
+                        <li>Connectov reserves the right to remove or modify listings that violate these Terms or platform policies.</li>
                     </ul>
 
                     <h2>6. Trust Scores</h2>
                     <p>
-                        Gatematch maintains a Trust Score system that evaluates users based on identity verification, deal history,
+                        Connectov maintains a Trust Score system that evaluates users based on identity verification, deal history,
                         compliance record, and dispute outcomes. Trust Scores are calculated algorithmically and are intended to provide
                         transparency — they do not constitute a guarantee of any party's reliability or creditworthiness.
                     </p>
@@ -90,42 +90,42 @@ export default function TermsOfServicePage() {
                     </ul>
                     <p>
                         Fees are billed monthly or as otherwise agreed. All fees are non-refundable except as required by law.
-                        Gatematch reserves the right to modify pricing with 30 days' notice.
+                        Connectov reserves the right to modify pricing with 30 days' notice.
                     </p>
 
                     <h2>8. Escrow and Dispute Resolution</h2>
                     <p>
-                        For eligible deals, Gatematch may hold security deposits in escrow. Disputes are managed by the Gatematch
-                        Compliance team following a documented process. While we endeavor to resolve disputes fairly, Gatematch's
+                        For eligible deals, Connectov may hold security deposits in escrow. Disputes are managed by the Connectov
+                        Compliance team following a documented process. While we endeavor to resolve disputes fairly, Connectov's
                         decision is advisory unless otherwise specified in the deal terms.
                     </p>
 
                     <h2>9. Intellectual Property</h2>
                     <p>
-                        The Service, including its design, code, content, and branding, is owned by Gatematch Technologies Ltd. and
+                        The Service, including its design, code, content, and branding, is owned by Connectov Technologies Ltd. and
                         protected by intellectual property laws. You may not copy, modify, distribute, or create derivative works
                         without our prior written consent.
                     </p>
                     <p>
-                        By posting content on the platform (listings, messages, reviews), you grant Gatematch a non-exclusive,
+                        By posting content on the platform (listings, messages, reviews), you grant Connectov a non-exclusive,
                         worldwide license to use, display, and distribute that content in connection with operating the Service.
                     </p>
 
                     <h2>10. Limitation of Liability</h2>
                     <p>
-                        To the maximum extent permitted by law, Gatematch shall not be liable for any indirect, incidental, special,
+                        To the maximum extent permitted by law, Connectov shall not be liable for any indirect, incidental, special,
                         consequential, or punitive damages, including loss of profits, revenue, data, or business opportunities,
                         arising out of or related to your use of the Service.
                     </p>
                     <p>
-                        Gatematch's total liability to you for any claims arising from the Service shall not exceed the total
-                        fees paid by you to Gatematch in the 12 months preceding the claim.
+                        Connectov's total liability to you for any claims arising from the Service shall not exceed the total
+                        fees paid by you to Connectov in the 12 months preceding the claim.
                     </p>
 
                     <h2>11. Disclaimer of Warranties</h2>
                     <p>
                         The Service is provided "as is" and "as available" without warranties of any kind, whether express or implied.
-                        Gatematch does not warrant that the Service will be uninterrupted, error-free, or secure. We do not endorse
+                        Connectov does not warrant that the Service will be uninterrupted, error-free, or secure. We do not endorse
                         or guarantee any Provider, Seeker, or deal facilitated through the platform.
                     </p>
 
@@ -156,8 +156,8 @@ export default function TermsOfServicePage() {
                         For questions about these Terms, contact us at:
                     </p>
                     <p>
-                        <strong>Gatematch Technologies Ltd.</strong><br />
-                        Email: legal@Gatematch.io
+                        <strong>Connectov Technologies Ltd.</strong><br />
+                        Email: legal@Connectov.io
                     </p>
                 </LegalDocumentShell>
             </motion.section>

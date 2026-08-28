@@ -56,7 +56,7 @@ const reviews = [
     },
     {
         name: 'João R.', company: 'BrasilTech', role: 'CFO', stars: 5,
-        text: 'Accessing EU payment rails through PayPal and Checkout.com from Brazil used to take months of bank applications. Gatematch made it happen in 11 days.',
+        text: 'Accessing EU payment rails through PayPal and Checkout.com from Brazil used to take months of bank applications. Connectov made it happen in 11 days.',
         avatar: 'JR', flag: '🇧🇷', date: 'Mar 2026',
         photo: '/assets/reviews/joao-r.png',
     },
@@ -120,7 +120,7 @@ const spotlightStories = [
         title: 'The Geo-Locked SaaS',
         subtitle: 'Nairobi to London , Stripe & ShopifyPayment card acceptance activation',
         problem: 'Cross-border subscriptions on Stripe were blocked by corridor and sponsorship limits.',
-        solution: 'Matched to a London sponsor bank via a compliant, pre-verified Gatematch provider with ShopifyPayment acquiring access.',
+        solution: 'Matched to a London sponsor bank via a compliant, pre-verified Connectov provider with ShopifyPayment acquiring access.',
         processed: '$120K',
         calendarDays: 4,
         timelineLabel: 'Global Rail Access',
@@ -148,7 +148,7 @@ const spotlightStories = [
         title: 'The PSP with Idle Capacity',
         subtitle: 'Unused Payoneer & Shopify Payments capacity converted into signed volume',
         problem: 'A licensed PSP had spare Payoneer payout and Shopify gateway infrastructure but no efficient BD distribution.',
-        solution: 'Listed verified capacity on Gatematch and closed qualified demand with standardized terms.',
+        solution: 'Listed verified capacity on Connectov and closed qualified demand with standardized terms.',
         processed: '$210K',
         calendarDays: 4,
         timelineLabel: 'Capacity Monetization',
@@ -1072,7 +1072,7 @@ function UseCaseSpotlights() {
                             marginRight: 'auto',
                         }}
                     >
-                        Gatematch matches businesses who need access to gateways like Stripe, PayPal, ShopifyPayment, or Shopify Payments with verified providers who have capacity , securely, compliantly, transparently.
+                        Connectov matches businesses who need access to gateways like Stripe, PayPal, ShopifyPayment, or Shopify Payments with verified providers who have capacity , securely, compliantly, transparently.
                     </motion.p>
 
                     {/* CTA buttons */}
@@ -1142,7 +1142,7 @@ function UseCaseSpotlights() {
                                     Live Activity
                                 </div>
                                 <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--white)', letterSpacing: '-0.02em' }}>
-                                    What is happening on Gatematch right now
+                                    What is happening on Connectov right now
                                 </div>
                             </div>
                             <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, color: 'var(--off-white)', fontSize: 12, fontWeight: 600 }}>
@@ -1202,7 +1202,7 @@ function UseCaseSpotlights() {
                             One side has underused infrastructure. The other side cannot access the rails they need.
                         </h2>
                         <p style={{ fontSize: 15, color: 'var(--slate)', maxWidth: 640, lineHeight: 1.8 }}>
-                            Gatematch exists because both of these conditions happen at the same time. Most visitors understand the product as soon as they see the mismatch clearly.
+                            Connectov exists because both of these conditions happen at the same time. Most visitors understand the product as soon as they see the mismatch clearly.
                         </p>
                     </motion.div>
 
@@ -1220,7 +1220,7 @@ function UseCaseSpotlights() {
                         </motion.div>
 
                         <motion.div className="problem-bridge-center" initial={{ opacity: 0, scale: 0.92 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.32, delay: 0.08 }}>
-                            <div className="problem-bridge-badge">Gatematch</div>
+                            <div className="problem-bridge-badge">Connectov</div>
                             <ArrowLeftRight size={28} style={{ color: 'var(--gold)' }} />
                             <div style={{ fontSize: 13, color: 'var(--slate)', textAlign: 'center', lineHeight: 1.7 }}>
                                 Verification, structure, and trust between both sides.
@@ -1385,7 +1385,7 @@ function UseCaseSpotlights() {
                             Monetize your Stripe account or acquire one.
                         </h2>
                         <p style={{ fontSize: 15, color: 'var(--slate)', maxWidth: 620, lineHeight: 1.8 }}>
-                            Whether you have an idle Stripe, PayPal, or Adyen account collecting dust, or you need immediate access to a verified gateway — Gatematch now offers two new paths.
+                            Whether you have an idle Stripe, PayPal, or Adyen account collecting dust, or you need immediate access to a verified gateway — Connectov now offers two new paths.
                         </p>
                     </motion.div>
 
@@ -1436,12 +1436,12 @@ function UseCaseSpotlights() {
                             <div className="stripe-opp-label">Sell</div>
                             <h3 className="stripe-opp-title">Sell your account — full legal ownership transfer</h3>
                             <p className="stripe-opp-desc">
-                                Ready to exit? Sell your verified Stripe, PayPal, or gateway account to a qualified buyer through Gatematch. We handle the <strong style={{ color: 'var(--white)' }}>legal ownership transfer</strong> — escrow-protected, compliance-reviewed, and fully documented.
+                                Ready to exit? Sell your verified Stripe, PayPal, or gateway account to a qualified buyer through Connectov. We handle the <strong style={{ color: 'var(--white)' }}>legal ownership transfer</strong> — escrow-protected, compliance-reviewed, and fully documented.
                             </p>
                             <ul className="stripe-opp-list">
                                 <li>Full legal transfer of gateway account ownership</li>
                                 <li>Buyer is KYB-verified before transaction proceeds</li>
-                                <li>Gatematch escrow protects both buyer and seller</li>
+                                <li>Connectov escrow protects both buyer and seller</li>
                                 <li>Compliance team reviews and documents the transfer</li>
                                 <li>Valuation based on account age, volume history, and standing</li>
                             </ul>
@@ -1541,7 +1541,7 @@ function UseCaseSpotlights() {
                             Simple. Structured. Secure.
                         </h2>
                         <p style={{ fontSize: 15, color: 'var(--slate)', maxWidth: 480 }}>
-                            Every deal on Gatematch , whether it involves Stripe, PayPal, ShopifyPayment, Payoneer, or Checkout.com , follows a 6-step process designed to protect both sides.
+                            Every deal on Connectov , whether it involves Stripe, PayPal, ShopifyPayment, Payoneer, or Checkout.com , follows a 6-step process designed to protect both sides.
                         </p>
                     </motion.div>
 
@@ -1663,7 +1663,7 @@ function UseCaseSpotlights() {
                             Transparent pricing for discovery, deals, and scale
                         </h2>
                         <p style={{ fontSize: 15, color: 'var(--slate)', maxWidth: 560, margin: '0 auto', lineHeight: 1.8 }}>
-                            No hidden setup cost. Gatematch charges only when a relationship is active and value is already moving through the platform.
+                            No hidden setup cost. Connectov charges only when a relationship is active and value is already moving through the platform.
                         </p>
                     </motion.div>
 
@@ -1716,7 +1716,7 @@ function UseCaseSpotlights() {
                     </div>
 
                     <div style={{ textAlign: 'center', marginTop: 28, fontSize: 13, color: 'var(--slate)', maxWidth: 680, margin: '28px auto 0', lineHeight: 1.7 }}>
-                        All plans include marketplace discovery, compliance tooling, and 24/7 fraud monitoring. Platform commission is charged only on volume processed through active Gatematch deals.
+                        All plans include marketplace discovery, compliance tooling, and 24/7 fraud monitoring. Platform commission is charged only on volume processed through active Connectov deals.
                     </div>
                 </div>
             </SectionReveal> */}

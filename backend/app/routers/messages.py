@@ -151,7 +151,7 @@ def send_message(data: MessageCreate, request: Request, db: Session = Depends(ge
     db.add(Notification(
         user_id=data.receiver_id,
         type="message",
-        message=f"New message from {sender.full_name if sender else 'a Gatematch member'}.",
+        message=f"New message from {sender.full_name if sender else 'a Connectov member'}.",
     ))
     db.commit()
     resp = MessageResponse.model_validate(msg)

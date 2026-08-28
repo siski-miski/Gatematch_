@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
 
                     <h2>1. Introduction</h2>
                     <p>
-                        Gatematch Technologies Ltd. ("Gatematch", "we", "our", or "us") is committed to protecting the privacy
+                        Connectov Technologies Ltd. ("Connectov", "we", "our", or "us") is committed to protecting the privacy
                         of our users. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal
                         information when you use our platform, website, and related services (collectively, the "Service").
                     </p>
@@ -101,7 +101,7 @@ export default function PrivacyPolicyPage() {
                         <li>Request portability of your data.</li>
                         <li>Withdraw consent where processing is based on consent.</li>
                     </ul>
-                    <p>To exercise these rights, contact us at <strong>privacy@Gatematch.io</strong>.</p>
+                    <p>To exercise these rights, contact us at <strong>privacy@Connectov.io</strong>.</p>
 
                     <h2>8. International Transfers</h2>
                     <p>
@@ -128,9 +128,9 @@ export default function PrivacyPolicyPage() {
                         For questions or concerns about this Privacy Policy or our data practices, contact us at:
                     </p>
                     <p>
-                        <strong>Gatematch Technologies Ltd.</strong><br />
-                        Email: privacy@Gatematch.io<br />
-                        Data Protection Officer: dpo@Gatematch.io
+                        <strong>Connectov Technologies Ltd.</strong><br />
+                        Email: privacy@Connectov.io<br />
+                        Data Protection Officer: dpo@Connectov.io
                     </p>
                 </LegalDocumentShell>
             </motion.section>

@@ -36,7 +36,7 @@ def seed_admin():
                 email=settings.ADMIN_EMAIL,
                 password_hash=hash_password(settings.ADMIN_PASSWORD),
                 full_name=settings.ADMIN_FULLNAME,
-                company_name="Gatematch",
+                company_name="Connectov",
                 role="admin",
                 plan="enterprise",
                 trust_score=100,
@@ -56,7 +56,7 @@ os.makedirs("uploads/verifications", exist_ok=True)
 os.makedirs("uploads/verification_html", exist_ok=True)
 os.makedirs("uploads/deals", exist_ok=True)
 
-app = FastAPI(title="Gatematch API", version="1.0.0")
+app = FastAPI(title="Connectov API", version="1.0.0")
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 app.add_middleware(
@@ -84,4 +84,4 @@ app.include_router(ssr.router)
 
 @app.get("/")
 def root():
-    return {"message": "Gatematch API is running"}
+    return {"message": "Connectov API is running"}

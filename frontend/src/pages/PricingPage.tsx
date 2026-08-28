@@ -60,7 +60,7 @@ export default function PricingPage() {
                     >
                         <div className="page-kicker">Plans</div>
                         <div className="page-title centered">Transparent pricing for discovery, structured deals, and scale</div>
-                        <div className="page-copy centered">No hidden setup cost. Gatematch charges only when a relationship is active and value is already moving through the platform.</div>
+                        <div className="page-copy centered">No hidden setup cost. Connectov charges only when a relationship is active and value is already moving through the platform.</div>
                         <div className="page-meta-row">
                             <div className="page-meta-pill">Free entry tier</div>
                             <div className="page-meta-pill">Commission only on active volume</div>
@@ -129,7 +129,7 @@ export default function PricingPage() {
                     </div>
 
                     <div className="page-note">
-                        All plans include marketplace discovery, compliance tooling, and 24/7 fraud monitoring. Platform commission is charged only on volume processed through active Gatematch deals.
+                        All plans include marketplace discovery, compliance tooling, and 24/7 fraud monitoring. Platform commission is charged only on volume processed through active Connectov deals.
                     </div>
                 </div>
             </div>

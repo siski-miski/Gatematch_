@@ -87,14 +87,14 @@ export default function Footer() {
 
     const address = data?.contact_offices || 'Paris, London, Dubai';
     const phone = data?.contact_whatsapp || '1234567890';
-    const email = data?.contact_email || 'support@Gatematch.io';
+    const email = data?.contact_email || 'support@Connectov.io';
 
     return (
         <footer className="site-footer">
             <div className="site-footer-inner">
                 <div className="site-footer-grid">
                     <div className="site-footer-brand-block">
-                        <div className="site-footer-logo">Gatematch</div>
+                        <div className="site-footer-logo">Connectov</div>
                         <div className="site-footer-desc">
                         The trusted marketplace for payment infrastructure. Connecting providers and seekers
                         , compliantly, transparently, at scale.
@@ -124,7 +124,7 @@ export default function Footer() {
                 </div>
 
                 <div className="site-footer-bottom">
-                    <div className="site-footer-copy">© 2026 Gatematch Technologies Ltd. All rights reserved.</div>
+                    <div className="site-footer-copy">© 2026 Connectov Technologies Ltd. All rights reserved.</div>
                     <div className="site-footer-bottom-links">
                     {legalLinks.map((l) => (
                         <Link key={l.path} to={l.path} className="site-footer-link">{l.label}</Link>

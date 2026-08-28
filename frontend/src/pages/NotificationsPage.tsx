@@ -35,7 +35,7 @@ export default function NotificationsPage() {
         <div className="page-wrapper">
             <main className="notifications-shell">
                 <div className="notifications-heading">
-                    <div className="dashboard-eyebrow">Your Gatematch workspace</div>
+                    <div className="dashboard-eyebrow">Your Connectov workspace</div>
                     <h1 className="notifications-title">Recent activity</h1>
                     <p className="notifications-subtitle">Stay on top of deal updates, proposal decisions, and account activity.</p>
                 </div>

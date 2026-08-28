@@ -45,7 +45,7 @@ export default function LoginPage() {
                         <LogIn size={24} className="text-navy" />
                     </div>
                     <h1 className="font-serif text-2xl text-white-custom mb-2">Welcome back</h1>
-                    <p className="text-sm text-slate-custom">Sign in to your Gatematch account</p>
+                    <p className="text-sm text-slate-custom">Sign in to your Connectov account</p>
                 </div>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5">
